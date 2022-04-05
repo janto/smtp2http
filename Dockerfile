@@ -3,7 +3,7 @@ FROM golang:alpine
 #RUN apk update && apk add git
 
 
-COPY . .
+COPY . /root/
 
 #RUN go build -tags netgo -ldflags '-s -w' -o smtp2http
 
